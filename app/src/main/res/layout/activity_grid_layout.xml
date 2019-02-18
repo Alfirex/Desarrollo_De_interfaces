@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GridLayout"
+    android:columnCount="4"
+    android:rowCount="6"
+    android:useDefaultMargins="true"
+    >
+
+
+    <TextView
+        android:text="Email Setup"
+        android:layout_columnSpan="4"
+        android:layout_gravity="center_horizontal"
+        android:textSize="32dp"/>
+
+    <TextView
+        android:text="Tu puedes configurar el email dentro de los inputs"
+        android:layout_columnSpan="4"
+        android:layout_gravity="left"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:text="Correo Electronico"
+        android:textSize="16dp"
+        android:layout_column="0"/>
+    <EditText
+        android:ems="10"/>
+    <TextView
+        android:text="Contraseña"
+        android:textSize="16dp"
+        android:layout_column="0"/>
+    <EditText
+        android:ems="8"/>
+    <Button
+        android:text="Siguiente"
+        android:layout_row="5"
+        android:layout_column="3"/>
+
+</GridLayout>
